@@ -8,25 +8,23 @@
         <script src="https://kit.fontawesome.com/317638535f.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
-            <nav>
-                <div>
-                    <a href="#">About</a>
-                    <a href="#">About</a>
-                </div>
-                <div>
-                    <a href="#">Gmail</a>
-                    <a href="#">Images</a>
-                    <a href="#"><i class="fas fa-th"></i></a>
-                    <a href="#"><i class="far fa-user-circle"></i></a>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <div>
-                <a href="https://www.google.com/search?sxsrf=ALeKk00DkEBNQ_N6xUX-Fghw3tD8SAIH5A:1588177707996&q=popular+google+doodle+games&oi=ddle&ct=153498595&hl=en&sa=X&ved=0ahUKEwj8zPuAh47pAhWRZs0KHXrGDOwQPQgO&biw=1920&bih=1075&dpr=1"><img alt="Google Logo" src="https://www.google.com/logos/doodles/2020/stay-and-play-at-home-with-popular-past-google-doodles-fischinger-2017-6753651837108768-law.gif"></a>
+        <header class="flex-bar">
+            <div class="flex-box">
+                <a href="#">About</a>
+                <a href="#">Store</a>
             </div>
-            <div>
+            <div class="flex-box">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#"><i class="fas fa-th fa-lg"></i></a>
+                <a href="#"><i class="far fa-user-circle fa-2x"></i></a>
+            </div>
+        </header>
+        <main id="main">
+            <div id="google-logo">
+                <a class="center" href="https://www.google.com/search?sxsrf=ALeKk00DkEBNQ_N6xUX-Fghw3tD8SAIH5A:1588177707996&q=popular+google+doodle+games&oi=ddle&ct=153498595&hl=en&sa=X&ved=0ahUKEwj8zPuAh47pAhWRZs0KHXrGDOwQPQgO&biw=1920&bih=1075&dpr=1"><img alt="Google Logo" src="https://www.google.com/logos/doodles/2020/stay-and-play-at-home-with-popular-past-google-doodles-fischinger-2017-6753651837108768-law.gif"></a>
+            </div>
+            <div id="search-area">
                 <form>
                     <div>
                         <i class="fas fa-search"></i>
@@ -37,13 +35,13 @@
                 </form>
             </div>
         </main>
-        <footer>
-            <div>
+        <footer class="flex-bar" id="footer">
+            <div class="flex-box">
                 <a href="#">Advertising</a>
                 <a href="#">Business</a>
                 <a href="#">How Search works</a>
             </div>
-            <div>
+            <div class="flex-box">
                 <a href="#">Privacy</a>
                 <a href="#">Terms</a>
                 <a href="#">Settings</a>
