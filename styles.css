@@ -37,6 +37,38 @@ a {
     color: #3c3c3c;
 }
 
+.search-button {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 20px auto;
+}
+
+#search-area {
+    width: 30%;
+}
+
+#search-bar {
+    border: 1px solid #d5d5d5;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: #d5d5d5;
+}
+
+#search-query {
+    border: none;
+    width: 92%;
+    margin-left: 4px;
+    font-size: 110%;
+}
+
 #google-logo {
     width: auto;
 }
@@ -55,5 +87,5 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
